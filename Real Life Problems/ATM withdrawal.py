@@ -1,6 +1,6 @@
 withdrawal = int(input("How many money do you want to withdraw?:"))
-balance=10000;
-if balance>=withdrawal & withdrawal>0:
+balance=10000
+if balance>=withdrawal and withdrawal>0:
     balance=balance-withdrawal
     print(withdrawal,"tk withdraw successful")
     print()
